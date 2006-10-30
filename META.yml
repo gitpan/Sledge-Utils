@@ -1,0 +1,15 @@
+abstract: utility functions for Sledge
+author: Tokuhiro Matsuno  C<< <tokuhiro __at__ mobilefactory.jp> >>
+build_requires: 
+  Test::Base: 0
+distribution_type: module
+generated_by: Module::Install version 0.64
+license: perl
+name: Sledge-Utils
+no_index: 
+  directory: 
+    - inc
+    - t
+requires: 
+  String::CamelCase: 0
+version: 0.01
