@@ -1,5 +1,8 @@
 Revision history for Sledge-Utils
 
+0.0.2  Wed Nov  1 14:55:25 JST 2006
+       oops. regexp bug fiexed.
+
 0.0.1  Mon Oct 30 22:33:46 2006
        Initial release.
 

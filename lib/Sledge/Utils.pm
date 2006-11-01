@@ -1,7 +1,7 @@
 package Sledge::Utils;
 use strict;
 use warnings;
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 use Carp;
 use String::CamelCase ();
 
@@ -24,7 +24,7 @@ sub class2appclass {
     my $class = shift;
 
     my $proto = ref $class || $class;
-    $proto =~ s/::Pages.+$//;
+    $proto =~ s/::Pages.*$//;
     return $proto;
 }
 
