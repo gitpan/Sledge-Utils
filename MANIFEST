@@ -1,6 +1,8 @@
+.shipit
 Changes
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/AutoInstall.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
@@ -19,14 +21,14 @@ inc/Test/Builder/Module.pm
 inc/Test/More.pm
 lib/Sledge/Utils.pm
 Makefile.PL
-MANIFEST
-META.yml			# Will be created by "make dist"
+MANIFEST			This list of files
+META.yml
 README
 t/00.load.t
 t/01.class2prefix.t
 t/02.class2appname.t
-t/dependencies.t
-t/perlcritic.t
-t/pod-coverage.t
-t/pod.t
-t/spelling.t
+xt/dependencies.t
+xt/perlcritic.t
+xt/pod-coverage.t
+xt/pod.t
+xt/spelling.t

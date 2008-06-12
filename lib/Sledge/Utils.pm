@@ -1,7 +1,7 @@
 package Sledge::Utils;
 use strict;
 use warnings;
-our $VERSION = 0.02;
+our $VERSION = '0.0.3';
 use Carp;
 use String::CamelCase ();
 
