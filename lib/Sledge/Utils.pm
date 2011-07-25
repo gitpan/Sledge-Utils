@@ -1,9 +1,11 @@
 package Sledge::Utils;
 use strict;
 use warnings;
-our $VERSION = '0.0.3';
+our $VERSION = '0.04';
 use Carp;
 use String::CamelCase ();
+
+use 5.008001;
 
 sub class2prefix {
     my $class = shift;
